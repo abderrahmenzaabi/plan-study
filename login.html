@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Join our Family!</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="title" href="home.html">
+      <i class="fa-solid fa-clock"></i> Plan & Study
+    </a>
+    <div id="nav-right">
+        Log in
+    </div>
+  </nav>
+  
+  <div class="wrapper">
+    <form id="authForm">
+      <h2 id="formTitle">Login</h2>
+      <div class="input-field" id="nameField" style="display: none;">
+        <input type="text" id="username" name="username" placeholder=" " > <!-- Added 'name' -->
+        <label>Name</label>
+      </div>
+      <div class="input-field">
+        <input type="email" id="email" name="email" placeholder=" " required> <!-- Added 'name' -->
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" name="password" placeholder=" " required> <!-- Added 'name' -->
+        <label>Password</label>
+      </div>
+      <div class="forget" id="loginOptions">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" id="formButton">Log In</button>
+      <div class="register">
+        <p id="toggleText">Don't have an account? <a id="toggleLink">Register</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+  <script src="register.js"></script>
+</body>
+</html>
