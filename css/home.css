@@ -14,7 +14,7 @@ body {
    width: 100%;
    height: 100vh;
    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-               url('background.jpg');
+               url('../images/background.jpg');
    background-size: cover;
    background-position: center;
    color: white;
@@ -22,7 +22,7 @@ body {
 
 
 .content {
-   padding: 4rem 5rem; /* Increased padding on the left and right */
+   padding: 4rem 5rem; 
    background-color: rgba(0, 0, 0, 0.5);
    position: absolute;  
    top: 65%;

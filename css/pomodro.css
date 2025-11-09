@@ -134,7 +134,7 @@ html, body {
    justify-content: center;
    align-items: center;
    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-               url('background.jpg');
+               url('../images/background.jpg');
    background-size: cover;
    background-position: center;
    color: white;
