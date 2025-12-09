@@ -10,9 +10,9 @@ app.use(express.json());
 app.use(cors());
 
 const db = mysql.createPool({
-    host: process.env.DB_HOST || "localhost",
-    user: process.env.DB_USER || "root",
-    password: process.env.DB_PASSWORD || "haha",
+    host: process.env.DB_HOST || "",
+    user: process.env.DB_USER || "",
+    password: process.env.DB_PASSWORD || "",
     database: process.env.DB_NAME || "Gestbiblio",
     waitForConnections: true,
     connectionLimit: 10,
